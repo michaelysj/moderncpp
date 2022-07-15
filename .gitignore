@@ -31,3 +31,13 @@
 *.out
 *.app
 *.opendb
+*.tlog
+*.pdb
+.vs/
+*.db
+*.idb
+*.pdb
+*.ipch
+*.recipe
+tester/x64/Debug/tester.log
+x64/Debug/tester.ilk
