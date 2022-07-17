@@ -19,5 +19,7 @@ using namespace std;
 
 void test_optional();
 void test_reference_wrapper();
+void test_bind();
+void test_bind1st();
 
 #endif // _TESTER_H_

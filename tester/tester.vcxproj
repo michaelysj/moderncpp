@@ -23,8 +23,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tester.cpp" />
+    <ClCompile Include="test_bind.cpp" />
+    <ClCompile Include="test_bind1st.cpp">
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp14</LanguageStandard>
+    </ClCompile>
     <ClCompile Include="test_optional.cpp" />
     <ClCompile Include="test_reference_wrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
